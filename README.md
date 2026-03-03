@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://christopherjavier.github.io/blog-preview-card)
+- Solution URL: [blog-preview-card](https://christopherjavier.github.io/blog-preview-card)
 
 ## My process
 
