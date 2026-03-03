@@ -47,6 +47,15 @@ main {
   color: #f4d04e;
 }
 
+.card:focus {
+  box-shadow: 12px 12px #111111;
+  transition-duration: 100ms;
+}
+
+.card:focus .card-text h1 {
+  color: #f4d04e;
+}
+
 .card-content {
   display: flex;
   flex-direction: column;
