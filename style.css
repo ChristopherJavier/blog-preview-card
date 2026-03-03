@@ -38,6 +38,15 @@ main {
   box-shadow: 8px 8px #111111;
 }
 
+.card:hover {
+  box-shadow: 12px 12px #111111;
+  transition-duration: 100ms;
+}
+
+.card:hover .card-text h1 {
+  color: #f4d04e;
+}
+
 .card-content {
   display: flex;
   flex-direction: column;
