@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "FigTree";
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f4d04e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #ffffff;
+  width: 384px;
+  height: 522px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1em;
+  border: solid 0.1em #111111;
+  box-shadow: 8px 8px #111111;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 1.5em;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+#card-image {
+  width: 336px;
+  height: 200px;
+  border-radius: 0.7em;
+}
+
+#card-tag {
+  background: #f4d04e;
+  width: fit-content;
+  padding: 0.5em 1em;
+  height: fit-content;
+  text-align: center;
+  border-radius: 0.2em;
+  font-family: "FigTree";
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 800;
+}
+
+.card-publication-date {
+  font-family: "FigTree";
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 500;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.card-text h1 {
+  font-family: "FigTree";
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 800;
+  color: #111111;
+}
+
+.card-text p {
+  font-family: "FigTree";
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 500;
+  color: #6b6b6b;
+}
+
+.card-avatar {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  justify-items: center;
+  align-items: center;
+}
+
+.card-avatar img {
+  width: 32px;
+  height: 32px;
+}
+
+.card-avatar span {
+  color: #111111;
+  font-family: "FigTree";
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 800;
+  color: #111111;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+footer {
+  justify-self: center;
+  align-self: center;
+  padding: 1em;
+}
